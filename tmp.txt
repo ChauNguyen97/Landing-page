@@ -1,0 +1,12 @@
+<!-- <div class="banner">
+              <div class="banner__detail">
+                <h2 class="banner__number">/ 02</h2>
+                <h3 class="banner__title">Pizza Min</h3>
+                <p class="banner__text">
+                  Ready for a real New Year’s resolution? Why not commit to
+                  setting your feet on a brand-new long-distance hiking trail?
+                </p>
+
+                <p class="banner__auth">Design / August 21 2017</p>
+              </div>
+            </div> -->

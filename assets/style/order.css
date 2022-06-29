@@ -1,0 +1,66 @@
+.order {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 350px;
+  padding-bottom: 120px;
+}
+
+.order__title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  color: #404040;
+}
+
+.order__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.order__form {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.order__input {
+  position: relative;
+}
+.order__select {
+  height: 50px;
+  width: 280px;
+  border: 1px solid #404040;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+select {
+  appearance: none;
+  background-image: url("../image/i/path.svg");
+  background-repeat: no-repeat;
+  background-position: 93%;
+}
+
+.order__select,
+.order__email {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}

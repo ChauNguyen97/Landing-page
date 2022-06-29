@@ -1,0 +1,111 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  background: none;
+}
+
+footer .listPicture {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+/* .splide__footer .splide__track{
+  overflow-y: unset;
+} */
+footer .listPicture {
+  height: calc(100% +10px);
+}
+footer .listPicture img {
+  width: 98%;
+  height: 98%;
+  transition: transform 0.3s;
+  padding: 1px;
+  opacity: 0.9;
+  z-index: 0;
+}
+footer .listPicture img:hover {
+  height: 100%;
+  transform: scale(1.08);
+  margin-right: 10px;
+  z-index: 2;
+  opacity: 1;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 50px;
+  height: 67%;
+  text-align: center;
+  color: #404040;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.footer__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  height: 160%;
+
+  text-align: center;
+
+  color: #6b6b6b;
+}
+
+.footer hr {
+  width: 80%;
+  background: #d8d8d8;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  margin: 40px auto;
+  border: 1px solid #5e5e5e;
+}
+
+.footer__btn {
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  gap: 15px;
+}
+
+.footer__btn .btn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #5e5e5e;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.footer__coppyright {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 50px;
+  color: #5e5e5e;
+}

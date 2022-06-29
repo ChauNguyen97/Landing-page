@@ -1,0 +1,107 @@
+.splide__banners {
+  width: 100%;
+  position: relative;
+}
+
+.splide__banners .btn__arrows {
+  width: 100px;
+  position: absolute;
+  bottom: 5%;
+  right: 22%;
+}
+
+.banner__track {
+  width: 100%;
+}
+
+.banner__list {
+  height: 710px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.banner__splide {
+  width: 100%;
+  height: 677px;
+  position: relative;
+  /* transition: all 0.2s; */
+}
+
+.banner__detail {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 20px;
+  width: 45%;
+  height: 40%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(27.1828px);
+  bottom: 0px;
+  right: 0px;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.banner__number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.banner__title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 50px;
+  padding-top: 0px;
+}
+
+.banner__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.banner__auth {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.banner__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner__splide.is-active .banner__detail {
+  opacity: 1;
+}
+
+.banner__splide.is-active {
+  height: 720px;
+}
+
+.splide__banners .btn__arrow img {
+  width: 20px;
+  height: 10px;
+}
+
+.splide__banners .btn__arrow img:hover{
+  width: 30px;
+}
